@@ -1,0 +1,229 @@
+{
+    "control":[
+        { "VTOY_DEFAULT_MENU_MODE": "1" },
+        { "VTOY_TREE_VIEW_MENU_STYLE": "1" },
+        { "VTOY_WIN11_BYPASS_CHECK": "1" },
+        { "VTOY_LINUX_REMOUNT": "1" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/ISO" }
+    ],
+    "theme":{
+        "file": "/ventoy/theme/poly-dark/theme.txt",
+        "ventoy_color": "white"
+        
+    },
+    
+    "menu_class":[
+        {
+            "dir": "/ISO/Acronis",
+            "class": "Acronis"
+        },
+				{
+					"key" : "Acronis_Backup_Advanced_Universal_11.7",
+					"class" : "Acronis_Backup_Advanced_Universal_11.7"
+				},
+				{
+					"key" : "Acronis_Disk_Director",
+					"class" : "Acronis_Disk_Director"
+				},
+				{
+					"key" : "Acronis_True_Image",
+					"class" : "Acronis_True_Image"
+				},
+        {
+            "dir": "/ISO/LiveCD",
+            "class": "livecd"
+        },
+				{
+					"key" : "clonezilla-live-3.0.1-8-amd64",
+					"class" : "clonezilla-live-3.0.1-8-amd64"
+				},
+				{
+					"key" : "Kaspersky_Rescue_Disk",
+					"class" : "Kaspersky_Rescue_Disk"
+				},
+				{
+					"key" : "Parted_Magic",
+					"class" : "Parted_Magic"
+				},
+				{
+					"key" : "Password_Reset",
+					"class" : "Password_Reset"
+				},
+				{
+					"key" : "rescuezilla-2.4-64bit.jammy",
+					"class" : "rescuezilla-2.4-64bit.jammy"
+				},
+				{
+					"key" : "USB_STRELEC",
+					"class" : "USB_STRELEC"
+				},				
+        {
+            "dir": "/ISO/Utils",
+            "class": "Utils"
+        },
+				{
+					"key" : "CmosPwd",
+					"class" : "CmosPwd"
+				},
+				{
+					"key" : "HDDREG",
+					"class" : "HDDREG"
+				},
+				{
+					"key" : "MemTest86",
+					"class" : "MemTest86"
+				},
+				{
+					"key" : "MemTest86",
+					"class" : "MemTest86"
+				},
+				{
+					"key" : "Victoria",
+					"class" : "Victoria"
+				},
+        {
+            "dir": "/ISO/Arch",
+            "class": "archlinux"
+        },
+				{
+					"key" : "archlinux-2022.08.05-x86_64",
+					"class" : "archlinux-2022.08.05-x86_64"
+				},
+        {
+            "dir": "/ISO/Windows",
+            "class": "Windows"
+        },
+				{
+					"key" : "en-ru_windows_10_version_21h1",
+					"class" : "en-ru_windows_10_version_21h1"
+				},
+		{
+            "dir": "/ISO/Windows 10 LTSB 2016 Compact",
+            "class": "Windows 10 LTSB 2016 Compact"
+        },
+				{
+					"key" : "14393.3659_LTSB_Compact_x64_by_flibustier",
+					"class" : "14393.3659_LTSB_Compact_x64_by_flibustier"
+				},
+				{
+					"key" : "14393.3659_LTSB_Compact_x86_by_flibustier",
+					"class" : "14393.3659_LTSB_Compact_x86_by_flibustier"
+				},
+        {
+            "dir": "/ISO/AstraLinux",
+            "class": "astralinux"
+        },
+				{
+					"key" : "astra_linux-1.7-12.21",
+					"class" : "astra_linux-1.7-12.21"
+				},
+				{
+					"key" : "orel-stable",
+					"class" : "orel-stable"
+				}
+    ],
+	"menu_alias":[
+		{
+            "image": "/ISO/Acronis/Acronis_Backup_Advanced_Universal_11.7.iso",
+            "alias": "Acronis Backup Advanced Universal"
+        },
+		{
+            "image": "/ISO/Acronis/Acronis_Disk_Director.iso",
+            "alias": "Acronis Disk Director"
+        },
+		{
+            "image": "/ISO/Acronis/Acronis_True_Image.iso",
+            "alias": "Acronis True Image"
+        },
+		{
+            "image": "/ISO/Arch/archlinux-2022.08.05-x86_64.iso",
+            "alias": "Arch Linux"
+        },
+        {
+            "image": "/ISO/Astra Linux/orel-stable.iso",
+            "alias": "Astra Linux Community Edition"
+        },
+        {
+            "image": "/ISO/Astra Linux/astra_linux_se.iso",
+            "alias": "Astra Linux Special Edition"
+        },
+        {
+            "image": "/ISO/LiveCD/clonezilla-live-3.0.1-8-amd64.iso",
+            "alias": "Clonezilla Live"
+        },
+        {
+            "image": "/ISO/LiveCD/Kaspersky_Rescue_Disk.iso",
+            "alias": "Kaspersky Rescue Disk"
+        },
+        {
+            "image": "/ISO/LiveCD/Parted_Magic.iso",
+            "alias": "Parted Magic"
+        },
+        {
+            "image": "/ISO/LiveCD/Password_Reset.wim",
+            "alias": "Password Reset"
+        },
+        {
+            "image": "/ISO/LiveCD/USB_STRELEC.iso",
+            "alias": "WinPE Sergei Strelec"
+        },
+		{
+            "image": "/ISO/LiveCD/rescuezilla-2.4-64bit.jammy.iso",
+            "alias": "Rescuezilla"
+        },
+        {
+            "image": "/ISO/Utils/MemTest86.efi",
+            "alias": "MemTest86+"
+        },
+        {
+            "image": "/ISO/Utils/CmosPwd.iso",
+            "alias": "CmosPwd"
+        },
+        {
+            "image": "/ISO/Utils/HDDREG.iso",
+            "alias": "HDD Regenerator"
+        },
+        {
+            "image": "/ISO/Utils/Victoria.iso",
+            "alias": "Victoria"
+        },
+		{
+            "image": "/ISO/Windows/en-ru_windows_10_version_21h1.iso",
+            "alias": "Windows 10"
+        },
+		{
+            "image": "/ISO/Windows 10 LTSB 2016 Compact/14393.3659_LTSB_Compact_x64_by_flibustier.iso",
+            "alias": "Windows 10 x64"
+        },
+		{
+            "image": "/ISO/Windows 10 LTSB 2016 Compact/14393.3659_LTSB_Compact_x86_by_flibustier.iso",
+            "alias": "Windows 10 x86"
+        },
+		
+        {
+            "image": "/ISO/Utils/MemTest86.iso",
+            "alias": "MemTest86+"
+        }
+	],
+	 
+    "auto_install":[
+        {
+            "image": "/ISO/Astra Linux/orel-stable.iso",
+            "template":[
+                "/ventoy/preseed_AL.cfg"
+            ]
+        }
+    ],
+    "image_blacklist_uefi":[
+        "/ISO/Utils/MemTest86.iso",
+        "/ISO/Utils/HDDREG.iso",
+        "/ISO/Utils/CmosPwd.iso",
+        "/ISO/Utils/Victoria.iso"
+    ],
+    "auto_memdisk_legacy":[
+        "/ISO/Utils/MemTest86.iso",
+        "/ISO/Utils/HDDREG.iso",
+        "/ISO/Utils/CmosPwd.iso",
+        "/ISO/Utils/Victoria.iso"
+    ]
+}

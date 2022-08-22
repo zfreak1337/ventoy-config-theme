@@ -1,0 +1,83 @@
+# Global properties
+title-text: "Dead inside ZXC"
+title-font: "Unifont Regular 22"
+title-color: "#FFFFFF"
+desktop-image: "background.png"
+desktop-color: "#FFFFFF"
+terminal-font: "Unifont Regular 18"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 15%
+  top = 20%
+  width = 70%
+  height = 50%
+  item_font = "Unifont Regular 18"
+  item_color = "#777777"
+  selected_item_color = "#999999"
+  item_height = 40
+  item_spacing = 4
+  item_pixmap_style = "item_*.png"
+  item_icon_space = "16"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
+# Countdown message
++ label {
+  left = 0
+  top = 80%
+  width = 100%
+  align = "center"
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  color = "#777777"
+  font = "Unifont Regular 18"
+}
+
+# Grub2 messages
++ hbox {
+  top = 83%
+  left = 20%
+  + label {text = "Enter: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "Boot Selection    " font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+  + label {text = "E: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "Edit Selection    " font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+  + label {text = "C: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "GRUB Commandline" font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+}
+
+# Ventoy messages
++ hbox {
+  top = 83%+24
+  left = 20%
+  + label {text = "F1: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "Mem Disk    " font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+  + label {text = "F2: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "Power    " font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+  + label {text = "F3: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "Tree View    " font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+  + label {text = "F4: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "Local Boot    " font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+  + label {text = "F5: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "Tools    " font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+}
+
+# Ventoy messages
++ hbox {
+  top = 83%+48
+  left = 20%
+  + label {text = "F6: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "Custom Menu    " font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+  + label {text = "F7: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "Text/GUI    " font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+  + label {text = "h: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "Help    " font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+  + label {text = "m: " font = "Unifont Regular 18" color = "#00EEEE" align = "left"}
+  + label {text = "Checksum    " font = "Unifont Regular 18" color = "#cccccc" align = "left"}
+}

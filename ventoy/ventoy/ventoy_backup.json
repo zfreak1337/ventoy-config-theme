@@ -1,0 +1,134 @@
+{
+    "control":[
+        { "VTOY_DEFAULT_MENU_MODE": "1" },
+        { "VTOY_TREE_VIEW_MENU_STYLE": "1" },
+        { "VTOY_WIN11_BYPASS_CHECK": "1" },
+        { "VTOY_LINUX_REMOUNT": "1" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/ISO" }
+    ],
+    "theme":{
+        "file": "/ventoy/theme/poly-dark/theme.txt",
+        "gfxmode": "1024x768",
+        "ventoy_color": "white"
+    },
+    "menu_alias":[
+        {
+            "image": "/ISO/Acronis/Acronis_Backup_Advanced_Universal_11.7.iso",
+            "alias": "Acronis Backup Advanced Universal"
+        },
+        {
+            "image": "/ISO/Acronis/Acronis_Disk_Director.iso",
+            "alias": "Acronis Disk Director"
+        },
+        {
+            "image": "/ISO/Acronis/Acronis_True_Image.iso",
+            "alias": "Acronis True Image"
+        },
+        {
+            "image": "/ISO/Astra Linux/orel-stable.iso",
+            "alias": "Astra Linux Community Edition"
+        },
+        {
+            "image": "/ISO/Astra Linux/astra_linux_se.iso",
+            "alias": "Astra Linux Special Edition"
+        },
+		
+		{
+			"image": "/ISO/Arch/archlinux-2022.08.05-x86_64.iso",
+            "alias": "archlinux"
+			
+		},
+		
+        {
+            "image": "/ISO/LiveCD/clonezilla-live-3.0.1-8-amd64.iso",
+            "alias": "Clonezilla Live"
+        },
+        {
+            "image": "/ISO/LiveCD/Kaspersky_Rescue_Disk.iso",
+            "alias": "Kaspersky Rescue Disk"
+        },
+        {
+            "image": "/ISO/LiveCD/Parted_Magic.iso",
+            "alias": "Parted Magic"
+        },
+        {
+            "image": "/ISO/LiveCD/Password_Reset.wim",
+            "alias": "Password Reset"
+        },
+        {
+            "image": "/ISO/LiveCD/USB_STRELEC.iso",
+            "alias": "WinPE Sergei Strelec"
+        },
+        {
+            "image": "/ISO/Utils/MemTest86.efi",
+            "alias": "MemTest86+"
+        },
+        {
+            "image": "/ISO/Utils/CmosPwd.iso",
+            "alias": "CmosPwd"
+        },
+        {
+            "image": "/ISO/Utils/HDDREG.iso",
+            "alias": "HDD Regenerator"
+        },
+        {
+            "image": "/ISO/Utils/Victoria.iso",
+            "alias": "Victoria"
+        },
+        {
+            "image": "/ISO/Utils/MemTest86.iso",
+            "alias": "MemTest86+"
+        }
+    ],
+    "menu_class":[
+        {
+            "dir": "/ISO/Acronis",
+            "class": "Acronis"
+        },
+		
+        {
+            "parent": "/ISO/LiveCD",
+            "class": "livecd"
+        },
+		
+        {
+            "dir": "/ISO/Utils",
+            "class": "Utils"
+        },
+		
+        {
+            "parent": "/ISO/Astra Linux",
+            "class": "astralinux"
+        },
+		
+		{
+			"parent": "/ISO/Arch",
+            "class": "archlinux"
+		},
+		
+        {
+            "dir": "/ISO/Windows",
+            "class": "Windows"
+        }
+    ],
+    "auto_install":[
+        {
+            "image": "/ISO/Astra Linux/orel-stable.iso",
+            "template":[
+                "/ventoy/preseed_AL.cfg"
+            ]
+        }
+    ],
+    "image_blacklist_uefi":[
+        "/ISO/Utils/MemTest86.iso",
+        "/ISO/Utils/HDDREG.iso",
+        "/ISO/Utils/CmosPwd.iso",
+        "/ISO/Utils/Victoria.iso"
+    ],
+    "auto_memdisk_legacy":[
+        "/ISO/Utils/MemTest86.iso",
+        "/ISO/Utils/HDDREG.iso",
+        "/ISO/Utils/CmosPwd.iso",
+        "/ISO/Utils/Victoria.iso"
+    ]
+}
